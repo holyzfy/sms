@@ -1,0 +1,28 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "基于腾讯云短信的手机验证码方案",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm ls -g pm2 || npm i -g pm2",
+    "dev": "pm2 start index.js -f --name sms --watch lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "node_modules/.bin/eslint \"lib/**/*.js\""
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-js": "~2.1.1",
+    "config": "~3.1.0",
+    "eslint": "~5.16.0",
+    "express": "~4.16.4",
+    "husky": "~2.2.0",
+    "qcloudsms_js": "~0.1.1",
+    "redis": "~2.8.0"
+  }
+}
