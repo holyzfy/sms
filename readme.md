@@ -1,11 +1,11 @@
 # 短信验证码服务 
 
+基于腾讯云短信的手机验证码服务
+
 ## 安装
 
 1. 运行 `npm install`
 2. 编辑`config/default.js`并另存为`config/local.js`
-
-- sign: 签名
 
 ## 如何使用
 
