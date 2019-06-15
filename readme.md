@@ -20,6 +20,7 @@
 参数
 
 - mobile: 手机号（必填）
+- sign: 签名，见config.sign（必填）
 
 响应
 
@@ -38,7 +39,7 @@
 
 - mobile: 手机号（必填）
 - code: 验证码（必填）
-- sign: 签名（必填），请看配置文件
+- sign: 签名，见config.sign（必填）
 
 响应
 
