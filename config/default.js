@@ -6,11 +6,12 @@ module.exports = {
     expireMinutes: 10,
     maxCountInOneMinute: 2,
     sms: {
-        // see: https://github.com/qcloudsms/qcloudsms_js#%E7%A4%BA%E4%BE%8B 
-        appId: '',
-        appKey: '',
+        // see: https://cloud.tencent.com/document/product/382/43197
+        sign: '',
         templateId: 0,
-        smsSign: '',
+        secretId: '',
+        secretKey: '',
+        endpoint: '',
     },
     sign: '',
 };
